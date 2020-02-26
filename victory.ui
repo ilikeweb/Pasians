@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>455</width>
+    <height>296</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>455</width>
+    <height>296</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>455</width>
+    <height>296</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>You won!!!</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>images/main_window_icon.png</normaloff>images/main_window_icon.png</iconset>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>14</x>
+     <y>14</y>
+     <width>428</width>
+     <height>197</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(57, 196, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>26</x>
+     <y>231</y>
+     <width>199</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+
+font: 12pt &quot;MS Shell Dlg 2&quot;;
+border-radius:25px;
+color: white; /* цвет текста */
+background:#292929/* фон кнопки */
+
+
+}
+QPushButton:hover {
+background:#000000;
+
+
+}</string>
+   </property>
+   <property name="text">
+    <string>New game</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>237</x>
+     <y>231</y>
+     <width>199</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+
+font: 12pt &quot;MS Shell Dlg 2&quot;;
+border-radius:25px;
+color: white; /* цвет текста */
+background:#292929/* фон кнопки */
+
+
+}
+QPushButton:hover {
+background:#000000;
+
+
+}</string>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
